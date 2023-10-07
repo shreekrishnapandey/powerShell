@@ -15,4 +15,5 @@ jobs:
 
       - name: Run PowerShell Script
         shell: pwsh
-        run:  ./shreekrishnapandey/powerShell/myscript.ps1  # Specify the path to your .ps1 file
+        run:  ./shreekrishnapandey/powerShell/myscript.ps1
+  # Specify the path to your .ps1 file
