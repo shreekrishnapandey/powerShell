@@ -1,7 +1,7 @@
-Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser -Force
+
 
 # Define your API key and city
-          $apiKey = '94cb7f7298ab35b30f2734eae3ca6e73'
+          $apiKey = '6adbcd8688ea7d06d0fa0bf2385ccab5'
           $city = 'New York'  # Replace with the desired city
 
           # Make the API request
