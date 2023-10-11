@@ -10,4 +10,4 @@
 
           # Display the JSON response
           Write-Host "Weather Response:"
-          $response | ConvertTo-Json -Depth
+          $response | ConvertTo-Json -Depth 4
