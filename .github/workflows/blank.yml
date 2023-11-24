@@ -1,9 +1,12 @@
 name: Run PowerShell Script
 
 on:
-  push:
-    branches:
-      - main
+  workflow_dispatch:
+    inputs: 
+        name: #Taking input
+            required: true
+    
+    
 
 jobs:
   run-powershell:
